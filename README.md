@@ -1,6 +1,6 @@
-#Sparkfun BMO086 IMU with STM32CubeIDE
+# Sparkfun BMO086 IMU with STM32CubeIDE
 
-##Introduction
+## Introduction
 The objective of this project is to port a CEVA BMO086 example program
 to run using I2C on a combination of a Sparkfun BMO086 IMU breakout, a NUCLEO-F401RE board, and STM32CubeIDE project files.
 
@@ -13,7 +13,7 @@ Another alternative is CEVA's SH2 sensor module demo.  It targets a NUCLEO-F411 
 Hence, this project is a port of CEVA's SH2 sensor module demo to run
 on a NUCLEO-F401RE board using a project configured by the STM32CubeIDE. 
 
-##Using This Software As-Is
+## Using This Software As-Is
  The files should compile and run as-is.  Wiring up the Sparkfun breakout board to the NUCLEO-F401RE is straightforward.  The following pin mapping is used (Board Pin is the STM32 designator, Arduino Pin is, well, the Arduino designator):
  
 | Signal | Board Pin | Arduino Pin |
@@ -24,7 +24,7 @@ on a NUCLEO-F401RE board using a project configured by the STM32CubeIDE.
 | 3V3 | +3V3 | +3V3 |
 | GND | GND | GND |
 
-##Rebuilding The Software From Scratch
+## Rebuilding The Software From Scratch
 If you wish to see how this project was constructed, or if you desire to make modifications, the following steps can be used to construct the project.
 
 1. Wire the hardware as shown in the previous section.
