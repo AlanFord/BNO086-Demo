@@ -73,6 +73,6 @@ If you wish to see how this project was constructed, or if you desire to make mo
 	
 	Also change `__read` to `_read` (only one underscore) and `__write` to `_write`.
 14. Alter the apps/i2c_hal.c file to comment out the function `EXTI15_10_IRQHandler`.  It is already provided in the file Core/Src/stm32f4xx_it.c.
-15. In the project properties, find the MCU Settings and check the box labeled "Use float with printf from newlib-nano".
+15. In the project properties, find the MCU Settings and check the box labeled "**Use float with printf from newlib-nano**".
 
 The project should be ready for use!
